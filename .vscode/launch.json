@@ -1,0 +1,18 @@
+{
+    /** DEBUGGING **/
+    // Debugging: https://code.visualstudio.com/docs/editor/debugging
+    // Launch configurations: https://code.visualstudio.com/docs/editor/debugging#_launch-configurations
+    // Variable reference: https://code.visualstudio.com/docs/editor/variables-reference 
+    "version": "0.2.0",
+    "configurations": [                
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env"
+        },
+    ]
+}

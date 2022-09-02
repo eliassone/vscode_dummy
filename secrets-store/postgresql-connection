@@ -1,0 +1,1 @@
+{"driver": "asyncpg", "user": "admin", "password": "admin", "host": "<servername>.postgres.database.azure.com", "port": 5432, "dbname": "master"}
