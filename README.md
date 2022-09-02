@@ -10,15 +10,15 @@ pip install -r requirements.txt
 
 ## 2. Running an entry point script
 ```bash
-python3 src/entries/cwd.py
+python3 src/entries/helloapp.py
 
 python3 src/entries/env.py
 
-python3 src/entries/helloapp.py
-
-python3 src/entries/logging_sensitive.py
+python3 src/entries/cwd.py -c ..
 
 python3 src/entries/secrets.py -A
+
+python3 src/entries/logging_sensitive.py
 ```
 
 ## 3. Running interactive notebook
