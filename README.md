@@ -18,7 +18,7 @@ python3 src/entries/helloapp.py
 
 python3 src/entries/logging_sensitive.py
 
-python3 src/secrets.py -A
+python3 src/entries/secrets.py -A
 ```
 
 ## 3. Running interactive notebook
